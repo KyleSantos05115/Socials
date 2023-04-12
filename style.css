@@ -1,0 +1,251 @@
+/*-----------------fonts starts-------------------*/
+@font-face {
+    font-family: nebula;
+    src: url(Nebula-Regular.otf);
+}
+
+@font-face {
+    font-family: nebula2;
+    src: url(Nebula-Hollow.otf);
+}
+
+@font-face {
+    font-family: robotothin;
+    src: url(Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: aspace;
+    src: url(A-Space_Thin.otf);
+}
+
+@font-face {
+    font-family: dual;
+    src: url(Dual-300.otf);
+}
+
+@font-face {
+    font-family: autobus;
+    src: url(Autobus-Bold.ttf);
+}
+/*----------------ends-----------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.num1 {
+    height: 160vh;
+    width: 100%;
+    background-image: url(Socials.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: nebula;
+}
+
+span {
+    color: red;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-family: autobus;
+}
+
+.btn:hover {
+    border: 2px solid red;
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.bars img {
+    height: 0 auto;
+    width: 70%;
+    border: 5px solid red;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 30px;
+}
+
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: nebula;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #373737;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h5 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: aspace;
+}
+
+.pra p {
+    color: pink;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+    font-family: autobus;
+}
+
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: dual;
+}
+
+footer p:nth-child(2) {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    line-height: 26px;
+    font-family: autobus;
+}
+
+.end {
+    color: white;
+    bottom: 35px;
+    font-size: 14px;
+    padding-top: 10px;
+    font-family: aspace;
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: red;
+    bottom: 42px;
+    right: 28px;
+    bottom: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 25px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 30px;
+}
+
+.gotopbtn:hover {
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
